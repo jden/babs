@@ -2,12 +2,19 @@
 bay area bike share status
 
 ## usage
-```js
-var babs = require('babs')
-```
+from the command line,
 
+    $ babs
+    5th at Howard In Service
+    3/12  ●●●○○○○○○○○○○○○
+    San Francisco Caltrain 2 (330 Townsend) In Service
+    4/19  ●●●●○○○○○○○○○○○○○○○○○○○
+    San Francisco Caltrain (Townsend at 4th) In Service
+    0/19  ○○○○○○○○○○○○○○○○○○○
 
-## api
+Currently the stations I use are hard coded. Feel free to make this configurable and send a pull request!
+
+This is just a fun exploration of the API for the new [Bay Area Bike Share api](http://bayareabikeshare.com/stations/json)
 
 
 ## installation
@@ -17,10 +24,12 @@ var babs = require('babs')
 
 ## running the tests
 
-From package root:
+There really aren't any.
 
-    $ npm install
-    $ npm test
+
+## about the name
+
+See http://www.modernluxury.com/san-francisco/story/the-bike-share-onslaught-begins
 
 
 ## contributors
